@@ -54,7 +54,7 @@ public class CodeGenerator {
                             .controller("controller")
                             .mapper("mapper")
                             .xml("mapper")
-                            .pathInfo(Collections.singletonMap(OutputFile.mapperXml, System.getProperty("user.dir")+"\\src\\main\\resources")); // 设置mapperXml生成路径
+                            .pathInfo(Collections.singletonMap(OutputFile.mapperXml, System.getProperty("user.dir")+"\\src\\main\\resources\\mapper")); // 设置mapperXml生成路径
                 })
 
                 //策略设置
