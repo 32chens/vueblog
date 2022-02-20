@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
  * @since 2022-02-19
  */
 @RestController
-@RequestMapping("/vueblog/user")
+@RequestMapping("/user")
 public class UserController {
     @Autowired
     private UserService userService;

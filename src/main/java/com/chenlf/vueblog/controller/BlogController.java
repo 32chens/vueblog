@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2022-02-19
  */
 @RestController
-@RequestMapping("/vueblog/blog")
+@RequestMapping("/blog")
 public class BlogController {
 
 }
